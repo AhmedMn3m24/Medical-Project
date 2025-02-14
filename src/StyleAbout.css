@@ -1,0 +1,739 @@
+/* Base Styles (Mobile First) */
+.about {
+  background: cadetblue;
+}
+
+/* .about__header {
+} */
+
+.about__title {
+  position: relative;
+  top: 56px;
+  right: 32%;
+  letter-spacing: 1px;
+}
+
+
+.about__subtitle {
+  width: 31%;
+  margin-left: 61%;
+  font-size: 17px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 11px;
+}
+
+
+.about__image {
+  width: 100%;
+  margin-top: 4%;
+}
+
+.about__welcome {
+  margin-top: 28px;
+}
+
+.about__welcome-title {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.about__welcome-description {
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.about__welcome-image {
+  width: 70%;
+}
+
+.testimonials {
+  margin-top: 17px;
+}
+
+/* .testimonials__title {}
+
+.testimonials__cards {
+}
+
+.testimonials__card {
+} */
+
+.testimonials__text {
+  font-size: 20px;
+}
+
+.testimonials__text:hover {
+  background: tomato
+}
+
+
+.testimonials__author {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.about__footer {
+  height: 620px;
+}
+
+/* .about__footer-section {
+}
+
+.about__footer-title {
+} */
+
+.about__footer-text {
+  font-size: 20px;
+}
+
+.about__footer-text--About {
+  font-size: 20px;
+}
+
+.about__footer-text--Services {
+  font-size: 20px;
+}
+
+.about__footer-text--Derparments {
+  font-size: 20px;
+}
+
+/******START THE LARGE Media Queries**************/
+/* Media Queries */
+@media (min-width: 768px) {
+  .about {
+    background: none;
+  }
+
+  .about__subtitle {
+    font-size: large;
+  }
+
+  .about__welcome {
+    margin-top: 47px;
+  }
+
+  .about__welcome-title {
+    margin-left: 8%;
+    width: 23%;
+    font-size: 21px;
+    font-family: sans-serif;
+  }
+
+  .about__welcome-description {
+    width: 55%;
+    margin-left: 40%;
+    margin-top: -9%;
+    font-size: 20px;
+  }
+
+  .about__welcome-image {
+    width: 70%;
+  }
+
+  .testimonials__cards {
+    /* Adjustments for testimonial cards on larger screens */
+  }
+
+  .testimonials__text {
+    font-size: 23px;
+  }
+
+  .about__footer {
+    height: 620px;
+  }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+  .about__footer {
+    height: 550px;
+  }
+
+  .about {
+    background: rebeccapurple;
+  }
+
+  .about__welcome-image {
+    width: 59%;
+  }
+
+  .about__welcome-title {
+    font-size: 22px;
+  }
+
+  .about__welcome-description {
+    font-size: 22px;
+
+  }
+
+  .testimonials__card {
+    width: 66%;
+    margin-left: 18%;
+    font-weight: 500;
+  }
+
+  .about__footer-text {
+    font-size: 25px;
+  }
+
+  .about__footer-text--About {
+    font-size: 25px;
+  }
+
+  .about__footer-text--Services {
+    font-size: 25px;
+  }
+
+  .about__footer-text--Derparments {
+    font-size: 25px;
+  }
+}
+
+/* *----------------------------------- */
+@media (min-width: 1024px) {
+  .about {
+    background: none;
+  }
+
+  .about__image {
+    width: 100%;
+    margin-top: -5%;
+  }
+
+  .about__subtitle {
+    position: relative;
+    right: 48%;
+    top: 55px;
+    width: 10%;
+  }
+
+  .about__header {
+    margin-bottom: 19px;
+  }
+
+  .about__welcome-title {
+    position: relative;
+    top: 126px;
+    left: 5%;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .about__welcome-description {
+    position: relative;
+    bottom: -310px;
+    right: 35%;
+    font-size: 25px;
+    text-align: center;
+    width: 39%;
+  }
+
+  .about__welcome-image {
+    width: 22%;
+    margin-top: -10px;
+    margin-left: 30%;
+  }
+
+  .testimonials {
+    display: flex;
+    margin-top: 8%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  .testimonials__title {
+    position: relative;
+    left: 48%;
+    top: -42px;
+    font-style: italic;
+  }
+
+  .testimonials__cards {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 58%;
+    margin-left: 2%;
+
+  }
+
+  .testimonials__text1 {
+    font-size: 22px;
+    border: 1px solid rgb(80, 63, 44);
+    border-radius: 14%;
+    padding: 21px;
+
+  }
+
+  .testimonials__text2 {
+    font-size: 22px;
+    border: 1px solid rgb(80, 63, 44);
+    border-radius: 14%;
+    padding: 21px;
+    position: relative;
+    left: 59%;
+  }
+
+  .testimonials__text3 {
+    font-size: 22px;
+    border: 1px solid rgb(80, 63, 44);
+    border-radius: 14%;
+    padding: 21px;
+    position: relative;
+    left: 115%;
+  }
+
+  .about__footer {
+    display: flex;
+    margin-top: 5%;
+    height: 500px;
+    flex-direction: row;
+    width: 100%;
+    /* margin-left: %; */
+    align-items: center;
+    background: lightblue;
+  }
+
+  .about__footer-title {
+    font-style: italic;
+  }
+
+  .about__footer-title:hover {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .about__footer-text {
+    width: 58%;
+    margin-left: 19%;
+    font-size: 27px;
+  }
+
+  .about__footer-text--About {
+    width: 58%;
+    margin-left: 19%;
+    font-size: 27px;
+  }
+
+  .about__footer-text--Services {
+    width: 58%;
+    margin-left: 19%;
+    font-size: 27px;
+  }
+
+  .about__footer-text--Derparments {
+    width: 58%;
+    margin-left: 19%;
+    font-size: 27px;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* #Dev {
+  position: relative;
+  top: 193px;
+  left: -30%;
+  color: black;
+}
+
+#ourDoc {
+  position: relative;
+  top: 193px;
+  left: -30%;
+  color: black;
+  font-size: 19px;
+}
+
+.About1 {
+  position: relative;
+  bottom: 55px;
+
+}
+
+#title {
+  position: relative;
+  right: 29%;
+  top: 126px;
+  ;
+  color: black;
+}
+
+#title2 {
+  position: relative;
+  bottom: -144px;
+  font-size: 18px;
+  color: black;
+  width: 28rem;
+  left: 6%;
+}
+
+.landingPage {
+  width: 25%;
+  margin-left: 20%;
+  bottom: 10px;
+  margin-left: 24%;
+  position: relative;
+  bottom: 170px;
+  ;
+
+}
+
+.About2 {
+  height: 400px;
+  background: lightgrey;
+
+}
+
+.text {
+  position: relative;
+  bottom: 69px;
+  font-family: monospace;
+  font-size: 37px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+#card1 {
+  font-size: 18px;
+  position: relative;
+  left: 14%;
+  width: 12rem;
+  background: lightgrey;
+  border: 2px solid rgb(11, 158, 184);
+  border-radius: 19%;
+  padding: 6px;
+  top: 22px;
+  line-height: 30px;
+
+}
+
+#card2 {
+  font-size: 18px;
+  position: relative;
+  left: -2%;
+  bottom: -17px;
+  width: 14rem;
+  background: lightgrey;
+  line-height: 35px;
+  border: 2px solid rgb(11, 158, 184);
+  border-radius: 19%;
+  padding: 7px;
+  margin: 2px;
+}
+
+#card3 {
+  left: -19%;
+  bottom: -20px;
+  background: lightgrey;
+  font-size: 18px;
+  border: 2px solid rgb(11, 158, 184);
+  border-radius: 19%;
+  padding: 10px;
+  width: 12rem;
+  line-height: 30px;
+
+
+}
+
+
+@media(max-width:430px) {
+  .About1 {
+    margin-top: 16%;
+  }
+
+  #logo {
+    margin-left: 6%;
+  }
+
+  #btn {
+    display: flex;
+    position: relative;
+    left: -2px;
+    top: 7px;
+
+  }
+
+  #navbar {
+    display: none;
+
+  }
+
+  #navbar.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Dev {
+    position: relative;
+    top: 23px;
+    left: 6%;
+    font-size: 29px;
+  }
+
+  .photoAbout {
+    width: 91%;
+    position: relative;
+    left: 0%;
+    height: 81px;
+    top: 20PX;
+
+  }
+
+  #ourDoc {
+    position: relative;
+    top: 23px;
+    font-size: 20px;
+    left: 30%;
+    width: 46%;
+
+  }
+
+  .landingPage {
+    width: 35%;
+    top: -324px;
+    margin-left: 13%;
+  }
+
+  #title {
+    position: relative;
+    left: 5%;
+    width: 29%;
+    top: 59px;
+  }
+
+  #title2 {
+    position: relative;
+    top: 132px;
+    width: 76%;
+    font-size: 17px;
+    left: 12%;
+
+  }
+
+  .text {
+    position: relative;
+    top: 10px;
+  }
+
+
+  .card-container {
+    flex-direction: column;
+    text-align: center;
+    margin-left: -14%;
+  }
+
+  #card1 {
+    margin-left: 22%;
+
+  }
+
+  #card2 {
+    margin-left: 35%;
+
+  }
+
+  #card3 {
+    margin-left: 54%;
+    margin-top: 1%;
+  }
+}
+
+
+@media(min-width:431px) and (max-width:768px) {
+  .About1 {
+    margin-top: 12%;
+
+  }
+
+  #logo {
+    margin-left: 6%;
+  }
+
+  #btn {
+    display: flex;
+    position: relative;
+    left: -2px;
+    top: 7px;
+
+  }
+
+  #navbar {
+    display: none;
+
+  }
+
+  #navbar.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photoAbout {
+    width: 96%;
+
+  }
+
+  #Dev {
+    position: relative;
+    top: 10px;
+    left: 2%;
+    color: black;
+  }
+
+  #ourDoc {
+    position: relative;
+    top: 3px;
+    left: 32%;
+    width: 37%;
+    color: black;
+
+  }
+
+  #title {
+    margin-left: 40%;
+    width: 24%;
+    top: 97px;
+
+
+  }
+
+  .landingPage {
+    width: 28%;
+    top: -252px;
+    margin-left: 24%
+  }
+
+  #title2 {
+    width: 60%;
+    margin-left: 15%;
+    top: 218px
+  }
+
+  .text {
+    position: relative;
+    top: 10px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #card1 {
+    margin-left: 22%;
+
+  }
+
+  #card2 {
+    margin-left: 35%;
+
+  }
+
+  #card3 {
+    margin-left: 54%;
+    margin-top: 1%;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+
+  
+  .photoAbout {
+    width: 86%;
+    margin-top: -59px;
+  }
+
+  #Dev {
+    margin: 7%;
+    top: 165px;
+    left: -18%;
+  }
+
+  #ourDoc {
+    margin-left: 24%;
+    top: 121px;
+    ;
+    color: black;
+  }
+
+  #title {
+    margin-left: 40%;
+    width: 24%;
+
+  }
+
+  #title2 {
+    margin-left: -3%;
+    width: 38%
+  }
+
+  .landingPage {
+    width: 44%;
+    margin-left: 36%;
+    top: -255px;
+
+  }
+
+  .card-container {
+    justify-content: space-between;
+
+    margin: auto;
+    margin-left: 12px;
+  }
+
+  #card1 {
+    left: 2%;
+  }
+
+
+  #card2 {
+    left: -4;
+  }
+
+  #card3 {
+    left: -6%;
+  }
+
+
+}
+
+@media(min-width:1025px) and (max-width:1440px) {
+  .About1 {
+
+    margin-top: 2%;
+  }
+
+  .photoAbout {
+    width: 96%;
+  }
+
+  .landingPage {
+    margin-left: 50%;
+  }
+
+
+
+
+
+} */

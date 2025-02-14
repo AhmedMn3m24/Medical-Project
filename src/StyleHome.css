@@ -1,0 +1,733 @@
+/* Base styles (mobile-first approach) */
+
+
+
+.home__slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__slider-image {
+  margin-left: 65px;
+  width: 65%;
+  margin-top: 75px;
+}
+
+#home__slider-caption {
+  margin-top: 8%;
+  margin-left: 1%;
+  width: 88%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+/* .home__section {}
+
+.home__section--why-choose {}
+
+.home__section--services {}
+ */
+
+
+
+.home__section-title1 {
+  margin-right: 3%;
+  margin-bottom: 71px;
+}
+
+.home__section-description1 {
+  margin-top: -56px;
+  margin-left: 6%;
+  font-size: 21px;
+}
+
+.home__features {
+  display: flex;
+}
+
+.home__feature {
+  justify-content: center;
+}
+
+.home__feature-title1 {
+  margin-right: 171%;
+  margin-top: 22px;
+  width: 198%;
+}
+
+
+.home__feature-text1 {
+  margin-left: 32%;
+  width: 147%;
+  margin-top: 27px;
+  background: rgb(133 103 82);
+  padding: 4px;
+}
+
+.home__feature-title2 {
+  margin-top: 146%;
+  margin-left: -83%;
+}
+
+.home__feature-text2 {
+  width: 123%;
+  margin-left: -54%;
+  margin-top: 39px;
+  background: rgb(133 103 82);
+  padding: 6px;
+}
+
+.home__section {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.home__section-heading {
+  font-size: 27px;
+  transform: translateY(0);
+  transition: 0.1s ease-in-out;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home__section-heading:hover {
+  color: burlywood;
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+.home__services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.home__services {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__service {
+  margin-top: 10px;
+  padding: 10px;
+  flex: 1 1;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.home__service-image {
+  width: 70%;
+  align-items: center;
+}
+
+.home__section-services {
+  padding: 20px;
+}
+
+.home__service-title1,
+.home__service-title2,
+.home__service-title3 {
+  font-size: 24px;
+  font-family: monospace;
+}
+
+
+.home__section--appointment {
+  display: flex;
+  align-items: center;
+}
+
+#Pragraph {
+  visibility: hidden;
+}
+
+.home__section-form--M {
+  margin-left: -18%;
+  font-size: 25px;
+  margin-top: -59%;
+  width: 172%;
+  color: brown;
+}
+
+.home__appointment-image1 {
+  margin-top: -30px;
+  margin-left: -58%;
+  width: 76%;
+
+}
+
+
+.parent {
+  display: flex;
+  width: 50%;
+  margin-left: 17%;
+  margin-top: -313px;
+}
+
+.section__FORM {
+  margin-top: 133%;
+  margin-right: 2%;
+  padding-left: 12%;
+
+}
+
+.home__form {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  flex-direction: column;
+  margin-right: 25%;
+
+}
+
+.home__form,
+input {
+  align-items: center;
+  padding: 10px 32px;
+  margin-top: 48px;
+  width: 109%;
+  gap: 10px;
+
+}
+
+.home__form-textarea {
+  margin-top: 5px;
+  margin-left: -6%;
+  padding: 6px;
+}
+
+
+
+/* .home__form-input {
+  position: relative;
+  left: 20%;
+  top: 70px;
+} */
+
+
+
+.home__form-button {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: -9%;
+  padding: 11px;
+  background: rgba(46, 7, 7, 0.193);
+}
+
+/* *----------------------------------- */
+.home__footer-title--D {
+  margin-top: -223px;
+  margin-left: -2%;
+}
+
+.home__section--doctors {
+  margin-top: -20px;
+}
+
+.home__doctor {
+  width: 63%;
+  margin-top: 22px;
+  margin-left: 8%;
+  font-size: 18px;
+}
+
+.home__doctor-image {
+  width: 93%;
+  margin-left: 17%;
+}
+
+.home__doctor-name {
+  margin-left: 23%;
+  margin-top: 10px;
+}
+
+.home__doctor-info {
+  font-size: 21px;
+  margin-left: 14%;
+  width: 97%;
+  font-weight: 600;
+}
+
+.home__footer {
+  height: 690px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+hr {
+  width: 100%;
+  background: darkblue;
+}
+
+.home__footer-title--D {
+  margin-top: 2%;
+}
+
+.home__footer-text--DEPARTMENTS {
+  margin-top: 2px;
+  height: 300px;
+}
+
+#btn {
+  display: block;
+}
+
+
+@media (min-width:425px) and (max-width:767px) {
+
+  .home {
+    background: none;
+  }
+
+  .home__form,
+  input {
+    align-items: center;
+    padding: 14px 36px;
+    margin-top: 78px;
+    width: 109%;
+    gap: 10px;
+  }
+
+  .home__section-form--M {
+    visibility: hidden;
+  }
+
+  .home__appointment-image1 {
+    margin-left: -68%;
+  }
+
+  .home__section--appointment {
+    margin-left: 12%;
+  }
+
+  .home__form {
+    margin-top: 37px;
+    margin-left: -10%;
+  }
+
+  .home__feature-title2 {
+    margin-top: 99%;
+  }
+
+}
+
+/* Queries for larger screens &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+@media (min-width: 768px) {
+  /*  */
+
+  /* .home__slider {} */
+
+  .home__slider-image {
+    width: 50%;
+    margin-left: 47%;
+  }
+
+  #home__slider-caption {
+    margin-left: -23%;
+    margin-top: -39%;
+    font-size: 31px;
+  }
+
+  .home__section {
+    margin-top: 237px;
+    margin-left: 10%;
+  }
+
+  .home__section-description1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -4%
+  }
+
+  /* .home__section--why-choose {} */
+
+  /* .home__section--services {}
+
+
+  .home__section-title1 {}
+
+  .home__section-description {}
+
+  .home__features {} */
+
+  /* .home__feature {} */
+
+  .home__feature-title1 {
+    margin-left: 6%;
+    font-size: 28px;
+  }
+
+  .home__feature-text1 {
+    font-size: 25px;
+    margin-left: 20%;
+    width: 162%;
+    background: none;
+  }
+
+  .home__feature-title2 {
+    font-size: 28px;
+    margin-top: 88%;
+    margin-left: -86%;
+  }
+
+  .home__feature-text2 {
+    font-size: 25px;
+    margin-left: -60%;
+    background: none;
+    width: 130%;
+    margin-top: 8px;
+  }
+
+  /* .home__services {} */
+
+  .home__section-heading {
+    margin-top: -36%;
+    margin-left: -8%;
+    text-align: center;
+  }
+
+  /* .home__service {} */
+
+  .home__service-image {
+    margin-left: -23%;
+    width: 86%;
+  }
+
+  .home__service-title1,
+  .home__service-title2,
+  .home__service-title3 {
+    margin-left: -21%;
+  }
+
+  .home__section-form--M {
+
+    margin-left: 10%;
+    margin-top: -43vh;
+    text-align: center;
+
+  }
+
+  .home__section--appointment {
+    display: flex;
+    margin-top: 50%;
+    justify-content: center;
+  }
+
+
+
+  .home__appointment-image1 {
+    width: 83%;
+    margin-left: -47%;
+    margin-top: -42vh;
+  }
+
+
+
+  .home__form {
+    padding: 26px;
+    margin: 136PX;
+    margin-top: -90px;
+    margin-left: 9%;
+    background: #696666;
+  }
+
+  /* .home__form-input {}
+
+  .home__form-textarea {}
+
+  .home__form-button {} */
+
+  .home__section--doctors {
+    margin-top: 3%;
+  }
+
+  .home__section-title--D {
+    margin-left: -5%;
+    text-align: center;
+  }
+
+  /* .home__doctors {}
+
+  .home__doctor {}
+
+  .home__doctor-image {} */
+
+  .home__doctor-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 14%;
+  }
+
+  .home__doctor-info {
+    margin-left: 14%;
+    text-align: center;
+  }
+
+  .home__footer {
+    height: 750px;
+  }
+}
+
+
+/* @media(min-width:769px) and (max-width:825px){
+  .home{
+    background: lightcoral;
+  }
+} */
+
+
+
+/* ------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+
+  .home {
+    background: none;
+
+  }
+
+  .home__slider-image {
+    width: 30%;
+  }
+
+  #home__slider-caption {
+    margin-top: -279px;
+  }
+
+  .home__section {
+    margin-top: 10%;
+  }
+
+  .home__section--why-choose {
+    margin-top: 70%;
+  }
+
+  .home__section-title1 {
+    margin-left: 1%;
+    margin-top: -20%;
+
+  }
+
+  .home__section-description1 {
+    margin-top: -47px;
+    margin-left: -4%;
+
+  }
+
+  .home__feature-title2 {
+    margin-top: 251px;
+    text-align: center;
+  }
+
+  .home__feature-title1 {
+    margin-left: -60%;
+    margin-top: 50px;
+    font-weight: normal;
+  }
+
+  .home__feature-text1 {
+    margin-top: 26px;
+    width: 84%;
+    margin-left: -4%;
+    background: burlywood;
+    transform: translateY(0);
+    transition: 0.1s ease-in-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+  .home__feature-text1:hover {
+    color: black;
+    cursor: pointer;
+    transform: translateY(-10%);
+  }
+
+  .home__feature-title2 {
+    margin-left: 10%;
+    margin-top: 7%;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .home__feature-text2 {
+    margin-left: 6%;
+    width: 85%;
+    background: burlywood;
+
+    margin-top: 11px;
+    transform: translateY(0);
+    transition: 0.1s ease-in-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .home__feature-text2:hover {
+    color: black;
+    cursor: pointer;
+    transform: translateY(-5%);
+  }
+
+  .home__section {
+    margin-top: 35%;
+  }
+
+  .home__services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+  }
+
+  .home__section--appointment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17%;
+    margin-left: -27%;
+
+  }
+
+  /* #Pragraph p {
+    margin-top: 55%;
+    margin-left: 5%;
+
+  } */
+
+  .home__section-form--M {
+    margin-left: -20%;
+    text-align: center;
+    margin-top: -141%;
+
+  }
+
+  .home__appointment-image1 {
+    width: 33%;
+    margin-left: -26%;
+    position: relative;
+    top: 62px;
+  }
+
+  .home__form {
+    position: relative;
+    left: 120%;
+    top: -210%;
+  }
+
+
+  .home__section-title--D {
+    margin-top: 107%;
+    margin-left: -7%;
+  }
+
+  .home__section--doctors {
+    margin-top: -85%;
+  }
+
+  .home__doctors {
+    display: flex;
+    flex-direction: row;
+    margin-left: -20%;
+    gap: 39px;
+  }
+
+
+
+  .home__doctor-image {
+    width: 50%;
+  }
+
+  .home__doctor-name {
+    font-weight: normal;
+  }
+
+  .home__doctor-info {
+    font-weight: normal;
+  }
+
+  .home__footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    background: rgb(209, 190, 176);
+  }
+
+  hr {
+    display: none;
+  }
+
+  .home__footer {
+    height: 700px;
+  }
+
+
+  .home__footer-title {
+
+    margin-top: 20%;
+  }
+
+  .home__footer-title--H {
+    position: relative;
+    top: 7%;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-family: emoji;
+  }
+
+  .home__footer-title--A {
+    position: relative;
+    top: 7%;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-family: emoji;
+  }
+
+  .home__footer-title--S {
+    position: relative;
+    top: 7%;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-family: emoji;
+  }
+
+  .home__footer-title--D {
+    position: relative;
+    top: 6%;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-family: emoji;
+  }
+
+  .home__footer-text--Home {
+    margin-top: 20%;
+    width: 42%;
+    margin-left: 25%;
+    font-size: 20px;
+
+  }
+
+  .home__footer-text--About {
+    margin-top: 20%;
+    width: 42%;
+    margin-left: 25%;
+    font-size: 20px;
+
+  }
+
+  .home__footer-text--SSERVICES {
+    margin-top: 19%;
+    width: 42%;
+    margin-left: 28%;
+    font-size: 20px;
+
+  }
+
+
+  .home__footer-text--DEPARTMENTS {
+    margin-top: 17%;
+    width: 42%;
+    margin-left: 25%;
+    font-size: 20px;
+
+  }
+
+}
