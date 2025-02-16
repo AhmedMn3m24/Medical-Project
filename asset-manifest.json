@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Medical-Project/static/css/main.69edbb3c.css",
+    "main.js": "/Medical-Project/static/js/main.d437c4b2.js",
+    "index.html": "/Medical-Project/index.html",
+    "main.69edbb3c.css.map": "/Medical-Project/static/css/main.69edbb3c.css.map",
+    "main.d437c4b2.js.map": "/Medical-Project/static/js/main.d437c4b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69edbb3c.css",
+    "static/js/main.d437c4b2.js"
+  ]
+}
